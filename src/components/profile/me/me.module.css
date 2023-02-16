@@ -1,0 +1,43 @@
+.aboutMe{
+    display: grid;
+
+    grid-template-areas: 
+    "hat hat"
+    "avatar text";
+
+    grid-template-rows: 200px 1fr;
+    grid-template-columns: 2fr 10fr;
+
+
+    margin: auto;
+    margin-top: 20px;
+}
+
+.hat{
+    grid-area: hat;
+
+}
+
+.avatar img{
+    grid-area: avatar;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+
+.text{
+    grid-area: text;
+    margin-top: 10px;
+    margin-left:10px;
+
+}
+
+.aboutMe img{
+    width: 100%;
+    height: 200px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight:bold;
+}

@@ -1,0 +1,14 @@
+.message{
+    margin-bottom: 10px;
+    padding: 3px;
+    background: rgb(235, 235, 235);
+    border-radius: 5px;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.text{
+    font-size: 20px;
+}

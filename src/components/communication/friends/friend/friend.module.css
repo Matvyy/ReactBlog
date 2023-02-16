@@ -1,0 +1,36 @@
+.friend{
+    display: grid;
+
+    grid-template-areas: 
+    "avatar ns";
+
+    grid-template-columns: 60px 1fr;
+
+    width: 600%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius:8px;
+    background: rgb(218, 218, 218);
+    margin-bottom: 10px;
+}
+
+.avatar img{
+    grid-area: avatar;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.ns{
+    grid-area: ns;
+    margin-left: 10px;
+}
+
+.name{
+    font-size: 30px;
+}
+
+.status{
+    font-size: 15px;
+}

@@ -1,0 +1,32 @@
+.nav{
+    grid-area: nav;
+    background: rgb(102, 102, 255);
+    margin-right: 10px;
+    width: 100%;
+    height: 700px;
+    border-radius: 5px;
+}
+
+.item{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 3px;
+    font-weight:bold;
+    font-style: normal;
+
+}
+
+.item a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+.items{
+    margin-top: 10px;
+}
+
+.item a.active{
+    color:rgb(178, 202, 253);
+}
+

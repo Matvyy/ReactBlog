@@ -1,0 +1,8 @@
+.dialogs{
+    grid-area: dialogs;
+}
+
+.dialog{
+
+    margin-bottom: 5px;
+}

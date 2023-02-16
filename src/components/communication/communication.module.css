@@ -1,0 +1,15 @@
+.message{
+    display: grid;
+
+    grid-template-areas: 
+    "name name"
+    "friends dialogs";
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+}
+
+.name{
+    font-size: 30px;
+    grid-area: name;
+}
